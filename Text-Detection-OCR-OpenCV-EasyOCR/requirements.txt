@@ -1,0 +1,4 @@
+easyocr
+matplotlib
+opencv-python
+numpy

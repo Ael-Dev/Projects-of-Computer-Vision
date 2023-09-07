@@ -8,8 +8,8 @@ def get_limits(color):
 
     # Calculates the lower and upper limits of the color by subtracting and adding 10 to the hue value of the color,
     # respectively. The saturation and value values are set to 100.
-    lowerLimit = hsvC[0][0][0] - 10, 100, 100 #10, 100, 100 amarillo BGR
-    upperLimit = hsvC[0][0][0] + 10, 255, 255 #10, 255, 255
+    lowerLimit = hsvC[0][0][0] - 20, 70, 70 #10, 100, 100 amarillo 
+    upperLimit = hsvC[0][0][0] + 20, 255, 255 #10, 255, 255
 
     lowerLimit = np.array(lowerLimit, dtype=np.uint8)
     upperLimit = np.array(upperLimit, dtype=np.uint8)

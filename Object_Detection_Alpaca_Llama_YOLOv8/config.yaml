@@ -1,0 +1,14 @@
+path: C:/Users/Alex/Desktop/R-Py/deep_learning/2.ComputerVision/Computer-Vision-Projects/projects-with-openCV/Object_Detection_Alpaca_Llama_YOLOv8/data # dataset root directory
+train: images/train # relative path to train dataset
+val: images/val # relative path to validation dataset
+
+nc: 2
+names: [alpaca, llama]
+
+# classes
+#names:
+  #0: alpaca
+  #1: llama
+
+
+
